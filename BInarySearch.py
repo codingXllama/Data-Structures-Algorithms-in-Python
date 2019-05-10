@@ -4,7 +4,9 @@ Credits go to Grokking Algorithms.
 This code is used for learning purposes!
 '''
 
-
+#passing the 2 arguments for the binarySearch method
+#there aruguments include 1.The sorted list 2.The Token/Number we will be looking for in the sorted list
+#this method will return the index of the Token we are looking for, if it doesn't exist then we return None
 def binarySearch(sortedList, NumberToGues):
     #keeping track of which part of the list we will search in
     lowValue = 0
