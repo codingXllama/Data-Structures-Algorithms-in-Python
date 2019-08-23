@@ -29,7 +29,12 @@ def BubbleSort(arr):
     #     print(arr[num], arr[num+1])
 
     print(arr[0], arr[1])
-    arr[0], arr[1] = arr[1], arr[0]
+    # arr[0], arr[1] = arr[1], arr[0]
+
+    # Different way of swapping values
+    temp = arr[0]
+    arr[0] = arr[1]
+    arr[1] = temp
     print(arr)
 
 
